@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01aefad2ce2f76b4aa07560b457f0439, type: 3}
+  m_Name: CharacterDB
+  m_EditorClassIdentifier: 
+  Characters:
+  - Icon: {fileID: 21300000, guid: 6ba06269aa4362542bae71cf98fbc4ed, type: 3}
+    name: Wizard
+    HP: 150
+    MP: 150
+    damage: 10
+    PlayerPrefabs: {fileID: 2016902569146046284, guid: 097175403b9c3624499641c31e15e08e, type: 3}
+    Skills:
+    - {fileID: 541769848, guid: 4549c8a5220f22344a61a62cab2d9660, type: 3}
+    - {fileID: -1203803776, guid: 4549c8a5220f22344a61a62cab2d9660, type: 3}
+    Items: []
+  - Icon: {fileID: 21300000, guid: 0c5d358e0b9656844846adae29442b80, type: 3}
+    name: Bowman
+    HP: 150
+    MP: 150
+    damage: 10
+    PlayerPrefabs: {fileID: 886371082423434696, guid: a60cd08fc29b84645a61b232d85ca40d, type: 3}
+    Skills:
+    - {fileID: 541769848, guid: 4549c8a5220f22344a61a62cab2d9660, type: 3}
+    - {fileID: -1203803776, guid: 4549c8a5220f22344a61a62cab2d9660, type: 3}
+    Items: []
+  - Icon: {fileID: 21300000, guid: 8eb3bcc04d21b69408db6831583a8473, type: 3}
+    name: Mage
+    HP: 150
+    MP: 150
+    damage: 10
+    PlayerPrefabs: {fileID: 8118989885927615335, guid: cba8171c2e8b62c4d8267b117a798f0e, type: 3}
+    Skills:
+    - {fileID: 541769848, guid: 4549c8a5220f22344a61a62cab2d9660, type: 3}
+    - {fileID: -1203803776, guid: 4549c8a5220f22344a61a62cab2d9660, type: 3}
+    Items:
+    - {fileID: 21300000, guid: 318a4196a2601814b967948372b25477, type: 3}
+    - {fileID: 21300000, guid: 235808331c2211f4ba4404eb0dc2b2b3, type: 3}
+    - {fileID: 21300000, guid: df3ac5412ffa6064b8cb75f5d0049ae3, type: 3}
+    - {fileID: 21300000, guid: 75a6542c05babe545b2ad015331f6517, type: 3}
+  - Icon: {fileID: 0}
+    name: Giant
+    HP: 100
+    MP: 150
+    damage: 10
+    PlayerPrefabs: {fileID: 0}
+    Skills: []
+    Items: []
